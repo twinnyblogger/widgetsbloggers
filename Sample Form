@@ -1,0 +1,167 @@
+<div id="twinny-form">
+<h2 id="twinny-form-title">
+<i class="fa fa-gears"></i> Twinny Widget</h2>
+<div id="twinny-form-settings">
+<div id="twinny-form-settings-loading">
+<i class="fa fa-spin fa-spinner"></i></div>
+</div>
+<form action="https://www.blogger.com/add-widget" id="twinny-form-add" method="POST" name="add-widget" target="_blank">
+<input id="widget-title" name="widget.title" style="display: none;" type="text" value="Pencaharian Box Dengan Style" /><textarea id="widget-code" name="widget.content" style="display: none;"><div id="_bcd_141013" style="display:none"></div>
+<style type="text/css">
+form#_bcd_141013_search_form {
+    position: relative;
+    display: block;
+    clear: both;
+    float: none;
+ 
+ border: /*border-width-s*/1px solid;/*border-width-e*/
+ border-color: /*border-color-s*/#dddddd;/*border-color-e*/
+    padding: /*padding-s*/5px;/*padding-e*/
+    font-size: /*font-size-s*/12px;/*font-size-e*/
+ background-color: /*bg-color-s*/#ffffff;/*bg-color-e*/
+}
+input#_bcd_141013_search_text {
+    width: auto;
+    border: none;
+    margin: 0;
+ padding: 0;
+    line-height: 2em;
+    height: 2em;
+    outline: none;
+ background: transparent;
+ 
+ color: /*text-color-s*/black;/*text-color-e*/
+}
+button#_bcd_141013_search_submit:hover {
+    opacity: 0.8;
+}
+button#_bcd_141013_search_submit {
+    width: auto;
+ padding: 0 /*padding-s*/5px;/*padding-e*/
+    margin: 0;
+    position: absolute;
+    right: /*padding-s*/5px;/*padding-e*/
+    top: /*padding-s*/5px;/*padding-e*/
+    line-height: 2em;
+    height: 2em;
+    text-align: center;
+    cursor: pointer;
+ border: none;
+ min-width: 2em;
+ 
+ color: /*submit-text-color-s*/black;/*submit-text-color-e*/
+    background: /*submit-bg-color-s*/#f0f0f0;/*submit-bg-color-e*/
+}
+html[dir="rtl"] button#_bcd_141013_search_submit {
+ right: auto;
+ left: /*padding-s*/5px;/*padding-e*/
+}
+</style>
+
+<form action='/search' id='_bcd_141013_search_form' method='get'>
+ <input id='_bcd_141013_search_text' name='q' placeholder="Search..." data-placeholder-end="" type='text'/>
+ <button type="submit" id="_bcd_141013_search_submit"><i class="fa fa-search"></i></button><!--endofsearsubmit-->
+</form>
+<script type="text/javascript">
+/*
+Name: Natural Search Box with Multi Design
+Author: Twinsx Veivo
+Site: http://twinnyscript.blogspot.com
+Version: 1.0
+License GNU
+*/
+var ss = document.getElementsByTagName('link');
+for (var i = 0; i < ss.length; i++) {
+ var href = ss[i].getAttribute('href');
+ if (href && href != null && href.indexOf("font-awesome/") != -1) {
+        break;
+ }
+}
+if (i >= ss.length) {
+ var link = document.createElement("link");
+ link.rel = "stylesheet";
+ link.href = "http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
+}
+document.getElementsByTagName("head")[0].appendChild(link);
+
+
+<!-- 
+TWINNY-WIDGET-OPTIONS
+"Border Width": {
+ "start": "/*border-width-s*/",
+ "end": "px solid;/*border-width-e*/",
+ "default": "1",
+ "desc": "Border width of search box."
+},
+"Border Color": {
+ "start": "/*border-color-s*/",
+ "end": ";/*border-color-e*/",
+ "default": "#dddddd",
+ "type" : "color",
+ "desc": "Border color of search box"
+},
+"Padding": {
+ "start": "/*padding-s*/",
+ "end": "px;/*padding-e*/",
+ "default": "5",
+ "desc": "Padding of search box. Allow integer only."
+},
+"Font Size": {
+ "start": "/*font-size-s*/",
+ "end": "px;/*font-size-e*/",
+ "default": "12",
+ "type" : "number",
+ "desc": "Search text font size in pixel"
+},
+"Background Color": {
+ "start": "/*bg-color-s*/",
+ "end": ";/*bg-color-e*/",
+ "default": "white",
+ "type" : "color",
+ "desc": "Search box background color"
+},
+"Text Color": {
+ "start": "/*text-color-s*/",
+ "end": ";/*text-color-e*/",
+ "default": "black",
+ "type" : "color",
+ "desc": "Search box text color"
+},
+"Padding": {
+ "start": "/*padding-s*/",
+ "end": "px;/*padding-e*/",
+ "default": "5",
+ "type" : "number",
+ "desc": "Search text padding in pixel"
+},
+"Submit Button Background Color": {
+ "start": "/*submit-bg-color-s*/",
+ "end": ";/*submit-bg-color-e*/",
+ "default": "#f0f0f0",
+ "type" : "color",
+ "desc": "Search box background color for submit button"
+},
+"Submit Button Text Color": {
+ "start": "/*submit-text-color-s*/",
+ "end": ";/*submit-text-color-e*/",
+ "default": "black",
+ "type" : "color",
+ "desc": "Search box text color for submit button"
+},
+"Placeholder Text": {
+ "start": "placeholder=\"",
+ "end": "\" data-placeholder-end=\"\"",
+ "default": "Search...",
+ "desc": "Placerholder text for search box"
+},
+"Search Submit Text": {
+ "start": "<button type=\"submit\" id=\"_bcd_141013_search_submit\">",
+ "end": "</button>",
+ "default": "<i class=\"fa fa-search\"></i>",
+ "desc": "Search submit text and / or <a href=\"http://fontawesome.io/icons/\" target=\"_blank\">icon tags</a>"
+}
+TWINNY-WIDGET-OPTIONS
+</script>
+
+--></textarea><button class="button" id="twinny-form-add-submit" type="submit">Tambahkan Widget <i class="fa fa-sign-in"></i></button></form>
+</div>
